@@ -22,7 +22,14 @@
 <h4>
     <?php
     echo str_replace($censura, '***', $paragrafo);
-    echo $pargrafo . strlen($paragrafo);
+    echo $pargrafo;
+
+    ?>
+</h4>
+<div>
+    <?php
+    echo strlen($paragrafo);
+
     ?>
 
-</h4>
+</div>
