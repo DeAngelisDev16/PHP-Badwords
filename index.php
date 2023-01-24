@@ -9,20 +9,16 @@
 </head>
 
 <body>
-    <h1>
-        ciao
+    <form action="./data.php" method="post">
+        <!-- Stampa a schermo paragrafo e la sua lunghezza -->
+        <input type="text" size="100" name="paragrafo">
 
-    </h1>
-    <h1>
-        <?php
-        $alessio = 'Hello World';
-        echo $alessio;
+        <!-- Stampa a schermo stesso paragrafo con parola da censurare -->
+        <input type="text" size="20" name="censura">
+        <button type="submit">Clicca</button>
 
-        ?>
+    </form>
 
-
-
-    </h1>
 
 </body>
 
