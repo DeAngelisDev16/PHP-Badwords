@@ -1,7 +1,11 @@
 <h2>
     <?php
-    echo $_POST['paragrafo'];
+    $paragrafo = $_POST['paragrafo'];
+
+    echo $paragrafo;
     //strlen(stringa) - ritorna la lunghezza di una stringa
+
+
 
 
     ?>
@@ -9,14 +13,14 @@
 
 <h3>
     <?php
-    echo strlen($_POST['paragrafo']);
+    echo strlen($paragrafo);
     ?>
 
 </h3>
 
 <h4>
     <?php
-    echo str_replace('Alessio', '***', ($_POST['paragrafo']));
+    echo str_replace('Alessio', '***', $paragrafo);
     ?>
 
 </h4>
