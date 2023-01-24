@@ -14,6 +14,7 @@
         <input type="text" size="100" name="paragrafo">
 
         <!-- Stampa a schermo stesso paragrafo con parola da censurare -->
+        <input type="text" size="20" name="censura">
 
         <button type="submit">Clicca</button>
 

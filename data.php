@@ -1,6 +1,7 @@
 <h2>
     <?php
     $paragrafo = $_POST['paragrafo'];
+    $censura = $_POST['censura'];
 
     echo $paragrafo;
     //strlen(stringa) - ritorna la lunghezza di una stringa
@@ -20,7 +21,8 @@
 
 <h4>
     <?php
-    echo str_replace('Alessio', '***', $paragrafo);
+    echo str_replace($censura, '***', $paragrafo);
+    echo $pargrafo . strlen($paragrafo);
     ?>
 
 </h4>
